@@ -5,202 +5,182 @@
         <title>Layout_Final_Task</title>
     </head>
     <body>
-        <header>
-            <div class="logo">
-                <img src="logo.png" alt="Logo">
-                <h2>Restauranty</h2>
-            </div>
-            <div class="navigation">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Reservation</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">FAQs</a>
-                    <a href="#">Account</a>
-                </nav>
-            </div>
-            <div class="contact">
-                <a href="#">Contact Us</a>
-            </div>
-            <div class="headerText">
-                <h1>Organic Foods Made Easy & Healthy</h1>
-            </div>
-            <div class="search">
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                    <h1>Restauranty</h1>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Reservation</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="headerText">
+                    <h2>Organic Foods Made Easy & Healthy</h2>
+                </div>
+                <div class="search">
+                    <form>
+                        <input type="search" placeholder="Search your food here">
+                        <button>Search</button>
+                    </form>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li><img src="icon1.png" alt="24/7 Fresh Food"></li>
+                        <li><img src="icon2.png" alt="Nature First"></li>
+                        <li><img src="icon3.png" alt="Home Service"></li>
+                        <li><img src="icon4.png" alt="Free Delivery"></li>
+                    </ul>
+                </div>
+            </header>
+            <section class="booking">
+                <h2>Book a Table:</h2>
                 <form>
-                    <input type="search" placeholder="Search your food here">
-                    <button>Search</button>
+                    <input type="date">
+                    <img src="calendarIcon.png" alt="Calendar">
+                    <select name="time">
+                        <option value="selectTime" selected disabled>Select Time</option>
+                        <option value="one">13:00</option>
+                        <option value="oneHalf">13:30</option>
+                        <option value="two">14:00</option>
+                        <option value="twoHalf">14:30</option>
+                        <option value="three">15:00</option>
+                        <option value="threeHalf">15:30</option>
+                        <option value="four">16:00</option>
+                        <option value="fourHalf">16:30</option>
+                        <option value="five">17:00</option>
+                        <option value="fiveHalf">17:30</option>
+                        <option value="six">18:00</option>
+                    </select>
+                    <select name="people">
+                        <option value="selectPeople" selected disabled>Select People</option>
+                        <option value="onePeople">1</option>
+                        <option value="twoPeople">2</option>
+                        <option value="threePeople">3</option>
+                        <option value="fourPeople">4</option>
+                        <option value="fivePeople">5</option>
+                        <option value="sixPeople">6</option>
+                    </select>
+                    <button>Book Now</button>
                 </form>
-            </div>
-            <div class="icons">
-                <img src="icon1.png" alt="24/7 Fresh Food">
-                <img src="icon2.png" alt="Nature First">
-                <img src="icon3.png" alt="Home Service">
-                <img src="icon4.png" alt="Free Delivery">
-            </div>
-        </header>
-        <article class="booking">
-            <h3>Book a Table:</h3>
-            <form>
-                <input type="date">
-                <img src="dateIcon.png" alt="Date">
-                <select name="time">
-                    <option value="selectTime" selected disabled>Select Time</option>
-                    <option value="one">13:00</option>
-                    <option value="oneHalf">13:30</option>
-                    <option value="two">14:00</option>
-                    <option value="twoHalf">14:30</option>
-                    <option value="three">15:00</option>
-                    <option value="threeHalf">15:30</option>
-                    <option value="four">16:00</option>
-                    <option value="fourHalf">16:30</option>
-                    <option value="five">17:00</option>
-                    <option value="fiveHalf">17:30</option>
-                    <option value="six">18:00</option>
-                </select>
-                <select name="people">
-                    <option value="selectPeople" selected disabled>Select People</option>
-                    <option value="onePeople">1</option>
-                    <option value="twoPeople">2</option>
-                    <option value="threePeople">3</option>
-                    <option value="fourPeople">4</option>
-                    <option value="fivePeople">5</option>
-                    <option value="sixPeople">6</option>
-                </select>
-                <a href="#">Book Now</a>
-            </form>
-        </article>
-        <main>
-            <div class="mainText">
-                <h2>Choose & Enjoy</h2>
-                <p>Inspire by Recipe and creations of worlds best chefs</p>
-            </div>
-            <div class="menuFirst">
-                <div class="foodOne">
-                    <fieldset>
-                        <p>$15.00</p>
-                        <img src="chickenBiryani.png" alt="Chicken Biryani">
-                        <p>Chicken Biryani</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Rice</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>15 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
+            </section>
+            <main>
+                <div class="mainText">
+                    <h2>Choose & Enjoy</h2>
+                    <p>Inspire by Recipe and creations of worlds best chefs</p>
                 </div>
-                <div class="foodTwo">
-                    <fieldset>
-                        <p>$20.00</p>
-                        <img src="muttonBiryani.png" alt="Mutton Biryani">
-                        <p>Mutton Biryani</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Rice</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>20 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
+                <div class="mainMenu">
+                    <article>
+                        <fieldset>
+                            <p>$15.00</p>
+                            <img src="chickenBiryani.png" alt="Chicken Biryani">
+                            <h2>Chicken Biryani</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Rice</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>15 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <p>$20.00</p>
+                            <img src="muttonBiryani.png" alt="Mutton Biryani">
+                            <h2>Mutton Biryani</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Rice</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>20 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <p>$18.00</p>
+                            <img src="muttonKarashi.png" alt="Mutton Karashi">
+                            <h2>Mutton Karashi</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Curries</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>30 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <p>$15.00</p>
+                            <img src="chickenKarma.png" alt="Chicken Karma">
+                            <h2>Chicken Karma</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Curries</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>20 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <p>$15.00</p>
+                            <img src="chickenNihari.png" alt="Chicken Nihari">
+                            <h2>Chicken Nihari</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Curries</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>30 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <p>$20.00</p>
+                            <img src="arabicSalad.png" alt="Arabic Salad">
+                            <h2>Arabic Salad</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Salad</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>10 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <p>$5.00</p>
+                            <img src="samosa.png" alt="Samosa">
+                            <h2>Samosa</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Refreshments</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>30 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <p>$10.00</p>
+                            <img src="rasmalai.png" alt="Rasmalai">
+                            <h2>Rasmalai</h2>
+                            <img src="foodIcon.png" alt="Food">
+                            <p>Refreshments</p>
+                            <img src="timeIcon.png" alt="Time">
+                            <p>45 min</p>
+                            <a href="#">Order Now</a>
+                        </fieldset>
+                    </article>
+                    <a href="#">View All</a>
                 </div>
-                <div class="foodThree">
-                    <fieldset>
-                        <p>$18.00</p>
-                        <img src="muttonKarashi.png" alt="Mutton Karashi">
-                        <p>Mutton Karashi</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Curries</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>30 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
-                </div>
-                <div class="foodFour">
-                    <fieldset>
-                        <p>$15.00</p>
-                        <img src="chickenKarma.png" alt="Chicken Karma">
-                        <p>Chicken Karma</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Curries</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>20 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
-                </div>
-            </div>
-            <div class="menuSecond">
-                <div class="foodFive">
-                    <fieldset>
-                        <p>$15.00</p>
-                        <img src="chickenNihari.png" alt="Chicken Nihari">
-                        <p>Chicken Nihari</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Curries</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>30 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
-                </div>
-                <div class="foodSix">
-                    <fieldset>
-                        <p>$20.00</p>
-                        <img src="arabicSalad.png" alt="Arabic Salad">
-                        <p>Arabic Salad</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Salad</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>10 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
-                </div>
-                <div class="foodSeven">
-                    <fieldset>
-                        <p>$5.00</p>
-                        <img src="samosa.png" alt="Samosa">
-                        <p>Samosa</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Refreshments</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>30 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
-                </div>
-                <div class="foodEight">
-                    <fieldset>
-                        <p>$10.00</p>
-                        <img src="rasmalai.png" alt="Rasmalai">
-                        <p>Rasmalai</p>
-                        <img src="foodIcon.png" alt="Food">
-                        <p>Refreshments</p>
-                        <img src="timeIcon.png" alt="Time">
-                        <p>45 min</p>
-                        <form>
-                            <button>Order Now</button>
-                        </form>
-                    </fieldset>
-                </div>
-            </div>
-            <div class="viewButton">
-                <form>
-                    <button>View All</button>
-                </form>
-            </div>
-        </main>
-        <article>
+            </main>
             <section>
-                <h3>Special Offer</h3>
+                <h2>Special Offer</h2>
                 <div>
                     <h3>50% Off</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -254,55 +234,55 @@
                     </div>
                 </div>
             </section>
-        </article>
-        <footer>
-            <div>
+            <footer>
                 <div>
-                    <h3>Popular Page</h3>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Our Chefs</a>
-                    <a href="#">Our Blog</a>
-                    <a href="#">FAQs</a>
-                    <a href="#">Contact Us</a>
+                    <div>
+                        <h3>Popular Page</h3>
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Our Chefs</a>
+                        <a href="#">Our Blog</a>
+                        <a href="#">FAQs</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <div>
+                        <h3>Popular Category</h3>
+                        <a href="#">Chicken</a>
+                        <a href="#">Mutton</a>
+                        <a href="#">Rice</a>
+                        <a href="#">Vegetarian</a>
+                        <a href="#">Refreshments</a>
+                        <a href="#">Sweets</a>
+                    </div>
+                    <div>
+                        <h3>Reach Us</h3>
+                        <img src="mobile.png" alt="Mobile"> <p>+971 (0) 55 1234567</p>
+                        <img src="phone.png" alt="Phone"> <p>+971 (0) 55 1234567</p>
+                        <img src="fax.png" alt="Fax"> <p>+971 (0) 55 1234567</p>
+                        <img src="email.png" alt="Email"> <p>info@restauranty.ae</p>
+                        <img src="website.png" alt="Website"> <p>www.restauranty.ae</p>
+                    </div>
+                    <div>
+                        <h3>Connect with us</h3>
+                        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="snapchat.png" alt="Snapchat"></a>
+                        <a href="#"><img src="googlePlus.png" alt="Google+"></a>
+                        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                    </div>
                 </div>
                 <div>
-                    <h3>Popular Category</h3>
-                    <a href="#">Chicken</a>
-                    <a href="#">Mutton</a>
-                    <a href="#">Rice</a>
-                    <a href="#">Vegetarian</a>
-                    <a href="#">Refreshments</a>
-                    <a href="#">Sweets</a>
+                    <div>
+                        <h3>@ 2019 Restauranty. All Rights Reserved</h3>
+                    </div>
+                    <div>
+                        <a href="#"><img src="iconCard.png" alt="Card"></a>
+                        <a href="#"><img src="iconCard.png" alt="Card"></a>
+                        <a href="#"><img src="iconCard.png" alt="Card"></a>
+                        <a href="#"><img src="iconCard.png" alt="Card"></a>
+                        <a href="#"><img src="iconCard.png" alt="Card"></a>
+                    </div>
                 </div>
-                <div>
-                    <h3>Reach Us</h3>
-                    <img src="mobile.png" alt="Mobile"> <p>+971 (0) 55 1234567</p>
-                    <img src="phone.png" alt="Phone"> <p>+971 (0) 55 1234567</p>
-                    <img src="fax.png" alt="Fax"> <p>+971 (0) 55 1234567</p>
-                    <img src="email.png" alt="Email"> <p>info@restauranty.ae</p>
-                    <img src="website.png" alt="Website"> <p>www.restauranty.ae</p>
-                </div>
-                <div>
-                    <h3>Connect with us</h3>
-                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="snapchat.png" alt="Snapchat"></a>
-                    <a href="#"><img src="googlePlus.png" alt="Google+"></a>
-                    <a href="#"><img src="instagram.png" alt="Instagram"></a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h3>@ 2019 Restauranty. All Rights Reserved</h3>
-                </div>
-                <div>
-                    <a href="#"><img src="card.png" alt="Card"></a>
-                    <a href="#"><img src="card.png" alt="Card"></a>
-                    <a href="#"><img src="card.png" alt="Card"></a>
-                    <a href="#"><img src="card.png" alt="Card"></a>
-                    <a href="#"><img src="card.png" alt="Card"></a>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </body>
 </html>
